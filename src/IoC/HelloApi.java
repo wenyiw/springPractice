@@ -1,4 +1,4 @@
-package chapter2;
+package IoC;
 
 public interface HelloApi {
     public void sayHello();

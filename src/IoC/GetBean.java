@@ -1,4 +1,4 @@
-package chapter2;
+package IoC;
 
 public class GetBean implements HelloApi {
     @Override

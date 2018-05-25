@@ -1,4 +1,4 @@
-package chapter2;
+package IoC;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,7 +14,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class GetBeanTest {
     @Test
     public void getBeanTest() {
-        BeanFactory beanFactory = new ClassPathXmlApplicationContext("chapter2/GetBean");
+        BeanFactory beanFactory = new ClassPathXmlApplicationContext("IoC/GetBean");
 
         //get by id
         HelloApi helloApi = beanFactory.getBean("bean1", HelloApi.class);

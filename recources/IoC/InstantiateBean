@@ -11,17 +11,17 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
     <!-- Instantiate Bean by Constructor -->
     <!-- use the default constructor -->
-    <bean name="bean1" class="chapter2.InstantiateBean"/>
+    <bean name="bean1" class="IoC.InstantiateBean"/>
 
     <!-- use the constructor with argument -->
-    <bean name="bean2" class="chapter2.InstantiateBean">
+    <bean name="bean2" class="IoC.InstantiateBean">
         <!-- specify the argument to fill -->
         <constructor-arg index="0" value="constructor with argument"/>
     </bean>
 
 
     <!-- Instantiate Bean by Static Factory -->
-    <bean id="bean3" class="chapter2.InstantiateBean" factory-method="staticFactory">
+    <bean id="bean3" class="IoC.InstantiateBean" factory-method="staticFactory">
          <constructor-arg index="0" value="static factory method!"/>
     </bean>
 
@@ -29,7 +29,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
         <!-- using this method, we can't specify the class, so: -->
         <!-- we first specify the id so it can be used as factory-bean -->
         <!-- then use factory-bean to specify the factory bean -->
-    <bean id="beanInstanceFactory" class="chapter2.InstantiateBean"/>
+    <bean id="beanInstanceFactory" class="IoC.InstantiateBean"/>
     <bean id="bean4" factory-bean="beanInstanceFactory" factory-method="instanceFactory">
         <constructor-arg index="0" value="instance factory!"></constructor-arg>
     </bean>

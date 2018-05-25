@@ -1,4 +1,4 @@
-package chapter2;
+package IoC;
 
 public class InstantiateBean implements HelloApi{
     private String message;

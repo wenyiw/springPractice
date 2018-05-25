@@ -1,4 +1,4 @@
-package chapter2;
+package IoC;
 
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
@@ -8,7 +8,7 @@ public class InstantiateBeanTest {
     @Test
     public void instantiateBeanTest() {
         BeanFactory beanFactory =
-                new ClassPathXmlApplicationContext("chapter2/InstantiateBean");
+                new ClassPathXmlApplicationContext("IoC/InstantiateBean");
 
         //instantiate bean by constructor
         HelloApi bean = beanFactory.getBean("bean1", HelloApi.class);
