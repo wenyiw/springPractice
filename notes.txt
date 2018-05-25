@@ -1,0 +1,2 @@
+1. If we want some files to be used we need to mark it as sources in intelliJ
+    project structure -> modules -> source

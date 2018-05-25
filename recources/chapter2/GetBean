@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <!--
+        id represents the name of the module,
+        class represents the class of the module
+    -->
+
+    <!-- get by id -->
+    <!-- id needs to be unique in the IoC container -->
+    <bean id="bean1" class="chapter2.GetBean"></bean>
+
+    <!-- get by name -->
+    <!-- name needs to be unique in the IoC container -->
+    <bean name="bean2" class="chapter2.GetBean"></bean>
+
+    <!-- get by type -->
+    <!-- class represents the class of the module -->
+    <bean class="chapter2.GetBean"></bean>
+
+    <!--
+        id will be the identifier and name will be alias; both need to be unique
+        both name and id will work
+    -->
+    <bean id="bean3" name="bean4" class="chapter2.GetBean"></bean>
+
+    <!-- If id and name are the same, IoC container can detect and resolve the issue -->
+    <bean id="bean5" name="bean5" class="chapter2.GetBean"></bean>
+
+    <!-- with multiple names, only the first one is the identifier (needs to be unique) -->
+    <bean name="bean11; alias11, alias12 alias13 alias14" class="chapter2.GetBean"></bean>
+
+    <!-- use alias, needs to be unique -->
+    <bean name="bean20" class="chapter2.GetBean"/>
+    <alias alias="alias1" name="bean20"/>
+    <alias alias="alias2" name="bean20"/>
+</beans>
+
+
+
