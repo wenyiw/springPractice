@@ -11,7 +11,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
     <!-- DI/LocalAndParentInjection/ParentInjection -->
     <!-- there is also a bean with id "helloApi" in parent container -->
-    <bean id="helloApi" class="DI.DIConfig.ConstantInjection">
+    <bean id="helloApi" class="DI.Config.ConstantInjection">
         <property name="index" value="1"/>
         <property name="message" value="Hello Parent!"/>
     </bean>

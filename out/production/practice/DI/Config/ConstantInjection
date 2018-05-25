@@ -9,51 +9,51 @@ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
 http://www.springframework.org/schema/context
 http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     <!-- injection by constructor argument index -->
-    <bean id="byIndex" class="DI.DIConfig.ConstantInjection">
+    <bean id="byIndex" class="DI.Config.ConstantInjection">
         <constructor-arg index="0" value="injection by constructor argument index!"/>
         <constructor-arg index="1" value="1"/>
     </bean>
 
     <!-- injection by constructor argument type -->
-    <bean id="byType" class="DI.DIConfig.ConstantInjection">
+    <bean id="byType" class="DI.Config.ConstantInjection">
         <constructor-arg type="java.lang.String" value="injection by constructor argument type!"/>
         <constructor-arg type="int" value="2"/>
     </bean>
 
     <!-- injection by constructor argument name -->
-    <bean id="byName" class="DI.DIConfig.ConstantInjection">
+    <bean id="byName" class="DI.Config.ConstantInjection">
         <constructor-arg name="message" value="injection by constructor argument name!"/>
         <constructor-arg name="index" value="3"/>
     </bean>
 
-    <bean id="justValue" class="DI.DIConfig.ConstantInjection">
+    <bean id="justValue" class="DI.Config.ConstantInjection">
         <constructor-arg value="injection by just value!"/>
         <constructor-arg value="4"/>
     </bean>
 
     <!-- below is static factory injection -->
-    <bean id="byIndexS" class="DI.DIConfig.ConstantInjection" factory-method="staticFacotry">
+    <bean id="byIndexS" class="DI.Config.ConstantInjection" factory-method="staticFacotry">
         <constructor-arg index="0" value="Hello World!"/>
         <constructor-arg index="1" value="1"/>
     </bean>
 
-    <bean id="byTypeS" class="DI.DIConfig.ConstantInjection" factory-method="staticFacotry">
+    <bean id="byTypeS" class="DI.Config.ConstantInjection" factory-method="staticFacotry">
         <constructor-arg type="java.lang.String" value="Hello World!"/>
         <constructor-arg type="int" value="2"/>
     </bean>
 
-    <bean id="byNameS" class="DI.DIConfig.ConstantInjection" factory-method="staticFacotry">
+    <bean id="byNameS" class="DI.Config.ConstantInjection" factory-method="staticFacotry">
         <constructor-arg name="message" value="Hello World!"/>
         <constructor-arg name="index" value="3"/>
     </bean>
 
-    <bean id="justValueS" class="DI.DIConfig.ConstantInjection">
+    <bean id="justValueS" class="DI.Config.ConstantInjection">
         <constructor-arg value="injection by just value!"/>
         <constructor-arg value="4"/>
     </bean>
 
     <!-- below is instance factory injection -->
-    <bean id="instanceFactory" class="DI.DIConfig.ConstantInjection"/> <!-- this requires a default constructor -->
+    <bean id="instanceFactory" class="DI.Config.ConstantInjection"/> <!-- this requires a default constructor -->
 
     <bean id="byIndexI" factory-bean="instanceFactory"  factory-method="instanceFacotry">
         <constructor-arg index="0" value="Hello World!"/>
@@ -70,13 +70,13 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
         <constructor-arg name="index" value="3"/>
     </bean>
 
-    <bean id="justValueI" class="DI.DIConfig.ConstantInjection">
+    <bean id="justValueI" class="DI.Config.ConstantInjection">
         <constructor-arg value="injection by just value!"/>
         <constructor-arg value="4"/>
     </bean>
 
     <!-- setter injection -->
-    <bean id="setter" class="DI.DIConfig.ConstantInjection">
+    <bean id="setter" class="DI.Config.ConstantInjection">
         <property name="message" value="setter injection!"/>
         <property name="index" value="1"/>
     </bean>

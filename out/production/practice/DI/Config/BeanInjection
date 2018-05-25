@@ -22,7 +22,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
         when initializing the container
         will throw an error if it doesn't exist
     -->
-    <bean id="idrefBean1" class="DI.DIConfig.BeanInjection">
+    <bean id="idrefBean1" class="DI.Config.BeanInjection">
         <property name="id"><idref bean="bean1"/></property>
     </bean>
 
@@ -31,7 +31,7 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
         when parsing xml; will throw an error if it doesn't exist
         Also, it only checks in the current config file
     -->
-    <bean id="idrefBean2" class="DI.DIConfig.BeanInjection">
+    <bean id="idrefBean2" class="DI.Config.BeanInjection">
         <property name="id"><idref local="bean2"/></property>
     </bean>
     <!-- END inject bean ID -->
@@ -42,12 +42,12 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     <bean id="helloApi" class="IoC.GetBean"/>
 
     <!-- inject through constructor -->
-    <bean id="bean3" class="DI.DIConfig.BeanInjectionDecorator">
+    <bean id="bean3" class="DI.Config.BeanInjectionDecorator">
         <constructor-arg index="0" ref="helloApi"/>
     </bean>
 
     <!-- inject through setter -->
-    <bean id="bean4" class="DI.DIConfig.BeanInjectionDecorator">
+    <bean id="bean4" class="DI.Config.BeanInjectionDecorator">
         <property name="helloApi"><ref bean="helloApi"/></property>
     </bean>
     <!-- END injection bean -->
