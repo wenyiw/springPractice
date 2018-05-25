@@ -1,5 +1,6 @@
 package IoC;
 
+import API.HelloApi;
 import org.junit.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
@@ -26,7 +27,7 @@ public class GetBeanTest {
 
         //get by type
         //if there are multiple beans of type exists, this won't work
-//        helloApi = beanFactory.GetBean(HelloApi.class);
+//        helloApi = beanFactory.GetBean(API.HelloApi.class);
 //        helloApi.sayHello();
 
         //when both id and name are defined

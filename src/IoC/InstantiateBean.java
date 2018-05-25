@@ -1,6 +1,8 @@
 package IoC;
 
-public class InstantiateBean implements HelloApi{
+import API.HelloApi;
+
+public class InstantiateBean implements HelloApi {
     private String message;
 
     public InstantiateBean() {
@@ -22,6 +24,6 @@ public class InstantiateBean implements HelloApi{
 
     @Override
     public void sayHello() {
-        System.out.println("hello impl 2 "+message);
+        System.out.println("hello instantiate bean "+message);
     }
 }

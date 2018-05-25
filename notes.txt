@@ -1,2 +1,18 @@
 1. If we want some files to be used we need to mark it as sources in intelliJ
     project structure -> modules -> source
+
+2. with @java.beans.ConstructorProperties({"message", "index"}) or not,
+    <bean id="byConstructorProperties" class="DI.Config.ConstantInjection">
+        <constructor-arg value="injection by constructor argument name with ConstructorProperties!"/>
+        <constructor-arg value="4"/>
+    </bean>
+    works
+
+3. I put factory methods (static and instance) inside the same class instead of creating another one.
+   In real projects, they should be put in another separate class
+
+2. GetBean: ways to get beans (including by id, by name, by type, etc.)
+        difference is in getBean (GetBeanTest)
+   InstantiateBean: focus on ways to instantiate beans
+        difference is in config file (InstantiateBean.xml)
+   Injection:

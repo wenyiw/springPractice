@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!-- inject bean ID -->
+    <bean id="bean1" class="java.lang.String">
+        <constructor-arg index="0" value="test"/>
+    </bean>
+    <bean id="bean2" class="java.lang.String">
+        <constructor-arg index="0" value="test"/>
+    </bean>
+
+    <!--
+        <idref bean="……"/> will check if the bean of the id injected exists or not
+        when initializing the container
+        will throw an error if it doesn't exist
+    -->
+    <bean id="idrefBean1" class="DI.Config.BeanInjection">
+        <property name="id"><idref bean="bean1"/></property>
+    </bean>
+
+    <!--
+        <idref local="……"/> will check if the bean of the id injected exists or not
+        when parsing xml; will throw an error if it doesn't exist
+        Also, it only checks in the current config file
+    -->
+    <bean id="idrefBean2" class="DI.Config.BeanInjection">
+        <property name="id"><idref local="bean2"/></property>
+    </bean>
+    <!-- END inject bean ID -->
+
+
+    <!-- injection bean -->
+    <!-- define the dependency bean -->
+    <bean id="helloApi" class="IoC.GetBean"/>
+
+    <!-- inject through constructor -->
+    <bean id="bean3" class="DI.Config.BeanInjectionDecorator">
+        <constructor-arg index="0" ref="helloApi"/>
+    </bean>
+
+    <!-- inject through setter -->
+    <bean id="bean4" class="DI.Config.BeanInjectionDecorator">
+        <property name="helloApi"><ref bean="helloApi"/></property>
+    </bean>
+    <!-- END injection bean -->
+
+</beans>
