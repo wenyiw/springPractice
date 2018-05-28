@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55003db8-d96b-459c-be6f-24e592eb2402" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/recources/DI/DependsOn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recources/DI/resource.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DI/DependsOn/ResourceBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/DI/DependsOnTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recources/AOP/HelloWorld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/IHelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AOP/AOPTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/BeanInjection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/BeanInjection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/BeanInjectionDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/BeanInjectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/ComplexDataTypeInjection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/ComplexDataTypeInjection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/ComplexDataTypeInjectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/ConstantInjection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/ConstantInjection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/ConstantInjectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/LocalAndParentInjection/LocalInjection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/LocalAndParentInjection/ParentInjection" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DIConfig/LocalAndParentInjectionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DependsOn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DependsOnTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/resource.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/DI/resource.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recources/DI/DependsOn" beforeDir="false" afterPath="$PROJECT_DIR$/recources/DI/DependsOn/DependsOn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DI/DependsOnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,20 +26,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="notes.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="notes.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+            <state relative-caret-position="368">
+              <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceBean.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResourceBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/ResourceBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="324">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,33 +47,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DependentBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java">
+      <file leaf-file-name="IHelloWorldService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AOP/IHelloWorldService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="81">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DependsOn" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recources/DI/DependsOn">
+      <file leaf-file-name="DependentBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="405">
+              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DependsOnTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest.java">
+        <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="156">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorld" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recources/AOP/HelloWorld">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AOPTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/AOP/AOPTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,6 +103,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -102,23 +114,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter2/HelloImpl2.java" />
-        <option value="$PROJECT_DIR$/recources/chapter2/instantiatingBean" />
-        <option value="$PROJECT_DIR$/test/chapter2/instantiatingContainerTest.java" />
-        <option value="$PROJECT_DIR$/test/chapter2/InstantiateContainerTest.java" />
-        <option value="$PROJECT_DIR$/test/chapter2/instantiateBeanByConstructorTest.java" />
-        <option value="$PROJECT_DIR$/test/chapter2/InstantiateBeanByConstructor.java" />
-        <option value="$PROJECT_DIR$/test/chapter2/GetBeanTest.java" />
-        <option value="$PROJECT_DIR$/test/chapter2/InstantiateBeanByConstructorTest.java" />
-        <option value="$PROJECT_DIR$/recources/chapter2/InstantiateBeanByConstructor" />
-        <option value="$PROJECT_DIR$/src/chapter2/InstantiateBeanByStaticFactory.java" />
-        <option value="$PROJECT_DIR$/src/chapter2/InstantiateBean.java" />
         <option value="$PROJECT_DIR$/test/chapter2/InstantiateBeanTest.java" />
         <option value="$PROJECT_DIR$/recources/chapter2/InstantiateBean" />
         <option value="$PROJECT_DIR$/src/HelloApi.java" />
         <option value="$PROJECT_DIR$/test/IoC/InstantiateBeanTest.java" />
         <option value="$PROJECT_DIR$/test/IoC/GetBeanTest.java" />
-        <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/src/DI/Injection.java" />
         <option value="$PROJECT_DIR$/recources/DI/Injection" />
         <option value="$PROJECT_DIR$/test/DI/InjectionTest.java" />
@@ -149,10 +149,22 @@
         <option value="$PROJECT_DIR$/src/DI/DependsOn/DependsOn.java" />
         <option value="$PROJECT_DIR$/src/DI/DependsOn/Resource.java" />
         <option value="$PROJECT_DIR$/test/DI/DependsOn.java" />
-        <option value="$PROJECT_DIR$/test/DI/DependsOnTest.java" />
         <option value="$PROJECT_DIR$/recources/DI/DependsOn" />
-        <option value="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" />
         <option value="$PROJECT_DIR$/src/DI/DependsOn/ResourceBean.java" />
+        <option value="$PROJECT_DIR$/src/AOP/IHelloWorldService.java" />
+        <option value="$PROJECT_DIR$/src/AOP/HelloWorldService.java" />
+        <option value="$PROJECT_DIR$/src/AOP/HelloWorldAspect.java" />
+        <option value="$PROJECT_DIR$/recources/AOP/HelloWorldAOP" />
+        <option value="$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java" />
+        <option value="$PROJECT_DIR$/test/AOP/AOPTest.java" />
+        <option value="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" />
+        <option value="$PROJECT_DIR$/src/DI/DependentBean.java" />
+        <option value="$PROJECT_DIR$/recources/AOP/HelloWorld" />
+        <option value="$PROJECT_DIR$/test/DI/DependsOnTest.java" />
+        <option value="$PROJECT_DIR$/test/DI/DependsOnTes.java" />
+        <option value="$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTes.java" />
+        <option value="$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java" />
+        <option value="$PROJECT_DIR$/notes.txt" />
       </list>
     </option>
   </component>
@@ -177,6 +189,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,30 +233,48 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="recources" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="recources" type="462c0819:PsiDirectoryNode" />
               <item name="DI" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="recources" type="462c0819:PsiDirectoryNode" />
               <item name="DI" type="462c0819:PsiDirectoryNode" />
               <item name="DependsOn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -250,12 +282,17 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="DI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="DI" type="462c0819:PsiDirectoryNode" />
+              <item name="DependsOnTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -268,23 +305,24 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/out/production/practice/DI" />
-      <recent name="$PROJECT_DIR$/recources/DI" />
-      <recent name="$PROJECT_DIR$/recources/DI/DIConfig" />
-      <recent name="$PROJECT_DIR$/recources/DI/LocalAndParentInjection" />
-      <recent name="$PROJECT_DIR$/test/chapter2" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DI.DependsOn" />
       <recent name="DI" />
       <recent name="DI.DependencyLoop" />
       <recent name="DI.DIConfig" />
       <recent name="src" />
-      <recent name="chapter2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/recources/DI" />
       <recent name="$PROJECT_DIR$/recources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recources/DI/DependsOn" />
+      <recent name="$PROJECT_DIR$/out/production/practice/DI" />
+      <recent name="$PROJECT_DIR$/recources/DI" />
+      <recent name="$PROJECT_DIR$/recources/DI/DIConfig" />
+      <recent name="$PROJECT_DIR$/recources/DI/LocalAndParentInjection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,20 +338,20 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.DependsOnTest.dependsOnTest">
-    <configuration name="ComplexDataTypeInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AOPTest.helloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DI.DependencyLoop.*" />
+          <option name="PATTERN" value="AOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DI.Config" />
-      <option name="MAIN_CLASS_NAME" value="DI.Config.ComplexDataTypeInjectionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="AOP" />
+      <option name="MAIN_CLASS_NAME" value="AOP.AOPTest" />
+      <option name="METHOD_NAME" value="helloWorldTest" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -350,14 +388,14 @@
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DI.*" />
+          <option name="PATTERN" value="DI.DependsOn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DI" />
-      <option name="MAIN_CLASS_NAME" value="DI.DependsOnTest" />
+      <option name="PACKAGE_NAME" value="DI.DependsOnTest" />
+      <option name="MAIN_CLASS_NAME" value="DI.DependsOnTest.DependsOnTest" />
       <option name="METHOD_NAME" value="dependsOnTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -373,14 +411,14 @@
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DI.*" />
+          <option name="PATTERN" value="DI.DependsOn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DI" />
-      <option name="MAIN_CLASS_NAME" value="DI.DependsOnTest" />
+      <option name="PACKAGE_NAME" value="DI.DependsOnTest" />
+      <option name="MAIN_CLASS_NAME" value="DI.DependsOnTest.DependsOnTest" />
       <option name="METHOD_NAME" value="testDependOn" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -432,18 +470,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LocalAndParentInjectionTest.localAndParentInjectionTest" />
-      <item itemvalue="JUnit.ComplexDataTypeInjectionTest" />
       <item itemvalue="JUnit.ConstantInjectionTest.testConstructorDependencyInjectTest" />
       <item itemvalue="JUnit.DependsOnTest.testDependOn" />
       <item itemvalue="JUnit.DependsOnTest.dependsOnTest" />
+      <item itemvalue="JUnit.AOPTest.helloWorldTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DependsOnTest.dependsOnTest" />
+        <item itemvalue="JUnit.AOPTest.helloWorldTest" />
         <item itemvalue="JUnit.DependsOnTest.testDependOn" />
         <item itemvalue="JUnit.ConstantInjectionTest.testConstructorDependencyInjectTest" />
         <item itemvalue="JUnit.LocalAndParentInjectionTest.localAndParentInjectionTest" />
-        <item itemvalue="JUnit.ComplexDataTypeInjectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -458,32 +496,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527145271351</updated>
       <workItem from="1527145274146" duration="24857000" />
-      <workItem from="1527235207796" duration="958000" />
+      <workItem from="1527235207796" duration="1364000" />
+      <workItem from="1527498303850" duration="1725000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BeanInjectionTest_testBeanInject - 2018.05.25 at 13h 52m 12s.xml">
-      <configuration name="BeanInjectionTest.testBeanInject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BeanInjectionTest_beanInjectionTest - 2018.05.25 at 13h 52m 32s.xml">
-      <configuration name="BeanInjectionTest.beanInjectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocalAndParentInjectionTest_testLocalAndparentBeanInject - 2018.05.25 at 14h 27m 23s.xml">
-      <configuration name="LocalAndParentInjectionTest.testLocalAndparentBeanInject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocalAndParentInjectionTest_localAndParentInjectionTest - 2018.05.25 at 14h 27m 55s.xml">
-      <configuration name="LocalAndParentInjectionTest.localAndParentInjectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComplexDataTypeInjectionTest - 2018.05.25 at 14h 36m 18s.xml">
-      <configuration name="ComplexDataTypeInjectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LocalAndParentInjectionTest_localAndParentInjectionTest - 2018.05.25 at 14h 36m 30s.xml">
-      <configuration name="LocalAndParentInjectionTest.localAndParentInjectionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConstantInjectionTest_testConstructorDependencyInjectTest - 2018.05.25 at 14h 36m 39s.xml">
-      <configuration name="ConstantInjectionTest.testConstructorDependencyInjectTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DependsOnTest_testDependOn - 2018.05.25 at 15h 32m 07s.xml">
       <configuration name="DependsOnTest.testDependOn" configurationId="JUnit" />
     </history-entry>
@@ -493,9 +511,30 @@
     <history-entry file="DependsOnTest_dependsOnTest - 2018.05.25 at 15h 52m 36s.xml">
       <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.28 at 17h 25m 42s.xml">
+      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 26m 29s.xml">
+      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 27m 05s.xml">
+      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 27m 31s.xml">
+      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 30m 57s.xml">
+      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.28 at 17h 33m 08s.xml">
+      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.28 at 17h 34m 05s.xml">
+      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25815000" />
+    <option name="totallyTimeSpent" value="27946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="127" y="23" width="1302" height="856" extended-state="0" />
@@ -503,64 +542,64 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32898173" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.20104438" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30156657" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33028722" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16359447" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31984335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31984335" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32898173" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32898173" />
+      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24961598" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32898173" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.32898173" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.3994778" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Messages" order="5" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,31 +614,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/ResourceBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recources/DI/DependsOn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest.java">
+    <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
@@ -613,10 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding>
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -804,13 +815,6 @@
     <entry file="file://$PROJECT_DIR$/src/DI/DependencyLoop/CircleA.java" />
     <entry file="file://$PROJECT_DIR$/src/DI/DependencyLoop/CircleB.java" />
     <entry file="file://$PROJECT_DIR$/src/DI/DependencyLoop/CircleC.java" />
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recources/DI/Config/BeanInjection">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -818,41 +822,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest.java">
+    <entry file="file://$PROJECT_DIR$/recources/DI/DependsOn/DependsOn">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recources/DI/DependsOn">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="459">
           <caret line="17" column="74" selection-start-line="17" selection-start-column="74" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recources/AOP/HelloWorld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/IHelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#77#78#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/ResourceBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="324">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#104#105#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AOP/AOPTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recources/AOP/HelloWorld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
         </state>
       </provider>
     </entry>

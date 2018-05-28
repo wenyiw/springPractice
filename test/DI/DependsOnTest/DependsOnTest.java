@@ -1,4 +1,4 @@
-package DI;
+package DI.DependsOnTest;
 
 import DI.DependsOn.DependentBean;
 import org.junit.Test;
@@ -10,7 +10,7 @@ public class DependsOnTest {
     @Test
     public void dependsOnTest() throws IOException {
         ClassPathXmlApplicationContext context =
-                new ClassPathXmlApplicationContext("DI/DependsOn");
+                new ClassPathXmlApplicationContext("DI/DependsOn/DependsOn");
 
         //we must call this, or our destroy method will not be called
         context.registerShutdownHook();

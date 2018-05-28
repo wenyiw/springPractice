@@ -3,7 +3,7 @@ package DI.DependsOn;
 import java.io.IOException;
 
 public class DependentBean {
-    private ResourcesBean resourceBean;
+    private ResourceBean resourceBean;
 
     public void write(String ss) throws IOException {
         System.out.println("DependentBean: write to resources");
@@ -23,7 +23,7 @@ public class DependentBean {
         resourceBean.getFos().write("DependentBean: destroy".getBytes());
     }
 
-    public void setResourceBean(ResourcesBean resourceBean) {
+    public void setResourceBean(ResourceBean resourceBean) {
         this.resourceBean = resourceBean;
     }
 }

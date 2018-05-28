@@ -11,6 +11,11 @@
 3. I put factory methods (static and instance) inside the same class instead of creating another one.
    In real projects, they should be put in another separate class
 
+4. structure inside resource must be the same as inside scr,
+    otherwise .class files may not be generated properly
+    (it's also better to have that same structure inside test too,
+     so the .class file for the unit test will also be in the same folder as others)
+
 2. GetBean: ways to get beans (including by id, by name, by type, etc.)
         difference is in getBean (GetBeanTest)
    InstantiateBean: focus on ways to instantiate beans
