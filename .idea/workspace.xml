@@ -2,19 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55003db8-d96b-459c-be6f-24e592eb2402" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/recources/AOP/HelloWorld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AOP/HelloWorldService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AOP/IHelloWorldService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/AOP/AOPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recources/AOP/AspectJ/AspectJ" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recources/AOP/Introduction/Introduction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/Advice/HelloWorldAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/Advice/HelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/Advice/IHelloWorldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/AspectJ/AspectJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/Introduction/IIntroductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AOP/Introduction/IntroductionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AOP/Advice/adviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AOP/AspectJ/AspectJTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/AOP/Introduction/IntroductionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DependsOn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/DependsOnTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice/DI/resource.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice/DI/resource.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recources/DI/DependsOn" beforeDir="false" afterPath="$PROJECT_DIR$/recources/DI/DependsOn/DependsOn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/DI/DependsOnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/AOP/AOPTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/AOP/HelloWorld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/AOP/HelloWorldAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/AOP/HelloWorldService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice/AOP/IHelloWorldService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recources/AOP/HelloWorld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AOP/HelloWorldService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AOP/IHelloWorldService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AOP/AOPTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,71 +35,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="notes.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notes.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+            <state relative-caret-position="534">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/ResourceBean.java">
+      <file leaf-file-name="AspectJ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AOP/AspectJ/AspectJ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="154">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IHelloWorldService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AOP/IHelloWorldService.java">
+      <file leaf-file-name="AspectJ" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recources/AOP/AspectJ/AspectJ">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="-190">
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DependentBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java">
+      <file leaf-file-name="AspectJTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/AOP/AspectJ/AspectJTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="15" column="12" lean-forward="true" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DependsOnTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorld" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recources/AOP/HelloWorld">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AOPTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/AOP/AOPTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="380">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,15 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/chapter2/InstantiateBeanTest.java" />
-        <option value="$PROJECT_DIR$/recources/chapter2/InstantiateBean" />
-        <option value="$PROJECT_DIR$/src/HelloApi.java" />
-        <option value="$PROJECT_DIR$/test/IoC/InstantiateBeanTest.java" />
-        <option value="$PROJECT_DIR$/test/IoC/GetBeanTest.java" />
-        <option value="$PROJECT_DIR$/src/DI/Injection.java" />
-        <option value="$PROJECT_DIR$/recources/DI/Injection" />
-        <option value="$PROJECT_DIR$/test/DI/InjectionTest.java" />
-        <option value="$PROJECT_DIR$/test/DI/ConstantInjectionTest.java" />
         <option value="$PROJECT_DIR$/src/DI/ComplexDataTypeInjection.java" />
         <option value="$PROJECT_DIR$/recources/DI/ComplexDataTypeInjection" />
         <option value="$PROJECT_DIR$/test/DI/ComplexDataTypeInjectionTest.java" />
@@ -151,20 +123,29 @@
         <option value="$PROJECT_DIR$/test/DI/DependsOn.java" />
         <option value="$PROJECT_DIR$/recources/DI/DependsOn" />
         <option value="$PROJECT_DIR$/src/DI/DependsOn/ResourceBean.java" />
-        <option value="$PROJECT_DIR$/src/AOP/IHelloWorldService.java" />
-        <option value="$PROJECT_DIR$/src/AOP/HelloWorldService.java" />
         <option value="$PROJECT_DIR$/src/AOP/HelloWorldAspect.java" />
         <option value="$PROJECT_DIR$/recources/AOP/HelloWorldAOP" />
-        <option value="$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java" />
-        <option value="$PROJECT_DIR$/test/AOP/AOPTest.java" />
         <option value="$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java" />
         <option value="$PROJECT_DIR$/src/DI/DependentBean.java" />
-        <option value="$PROJECT_DIR$/recources/AOP/HelloWorld" />
         <option value="$PROJECT_DIR$/test/DI/DependsOnTest.java" />
         <option value="$PROJECT_DIR$/test/DI/DependsOnTes.java" />
         <option value="$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTes.java" />
-        <option value="$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java" />
         <option value="$PROJECT_DIR$/notes.txt" />
+        <option value="$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java" />
+        <option value="$PROJECT_DIR$/src/AOP/IHelloWorldService.java" />
+        <option value="$PROJECT_DIR$/src/AOP/HelloWorldService.java" />
+        <option value="$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java" />
+        <option value="$PROJECT_DIR$/recources/AOP/HelloWorld" />
+        <option value="$PROJECT_DIR$/test/AOP/AOPTest.java" />
+        <option value="$PROJECT_DIR$/src/AOP/Introduction/IIntroductionService.java" />
+        <option value="$PROJECT_DIR$/src/AOP/Introduction/IntroductiondService.java" />
+        <option value="$PROJECT_DIR$/recources/AOP/Advice/Advice" />
+        <option value="$PROJECT_DIR$/test/AOP/Advice/adviceTest.java" />
+        <option value="$PROJECT_DIR$/test/AOP/Introduction/IntroductionTest.java" />
+        <option value="$PROJECT_DIR$/recources/AOP/Introduction/Introduction" />
+        <option value="$PROJECT_DIR$/src/AOP/AspectJ/AspectJ.java" />
+        <option value="$PROJECT_DIR$/recources/AOP/AspectJ/AspectJ" />
+        <option value="$PROJECT_DIR$/test/AOP/AspectJ/AspectJTest.java" />
       </list>
     </option>
   </component>
@@ -189,8 +170,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,32 +181,6 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="DI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="recources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -239,14 +193,8 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="recources" type="462c0819:PsiDirectoryNode" />
-              <item name="DI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="recources" type="462c0819:PsiDirectoryNode" />
-              <item name="DI" type="462c0819:PsiDirectoryNode" />
-              <item name="DependsOn" type="462c0819:PsiDirectoryNode" />
+              <item name="AOP" type="462c0819:PsiDirectoryNode" />
+              <item name="AspectJ" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -262,12 +210,6 @@
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,25 +217,13 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="AOP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="DI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="DI" type="462c0819:PsiDirectoryNode" />
-              <item name="DependsOnTest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,24 +235,24 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/recources/AOP/Advice" />
+      <recent name="$PROJECT_DIR$/recources/DI/DependsOn" />
+      <recent name="$PROJECT_DIR$/out/production/practice/DI" />
+      <recent name="$PROJECT_DIR$/recources/DI" />
+      <recent name="$PROJECT_DIR$/recources/DI/DIConfig" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="AOP.Advice" />
       <recent name="DI.DependsOn" />
       <recent name="DI" />
       <recent name="DI.DependencyLoop" />
       <recent name="DI.DIConfig" />
-      <recent name="src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/recources/DI" />
       <recent name="$PROJECT_DIR$/recources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/recources/DI/DependsOn" />
-      <recent name="$PROJECT_DIR$/out/production/practice/DI" />
-      <recent name="$PROJECT_DIR$/recources/DI" />
-      <recent name="$PROJECT_DIR$/recources/DI/DIConfig" />
-      <recent name="$PROJECT_DIR$/recources/DI/LocalAndParentInjection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -337,20 +267,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DependsOnTest.dependsOnTest">
-    <configuration name="AOPTest.helloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AspectJTest.aspectJTest">
+    <configuration name="AspectJTest.aspectJTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AOP.*" />
+          <option name="PATTERN" value="AOP.AspectJ.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="AOP" />
-      <option name="MAIN_CLASS_NAME" value="AOP.AOPTest" />
-      <option name="METHOD_NAME" value="helloWorldTest" />
+      <option name="PACKAGE_NAME" value="AOP.AspectJ" />
+      <option name="MAIN_CLASS_NAME" value="AOP.AspectJ.AspectJTest" />
+      <option name="METHOD_NAME" value="aspectJTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -361,19 +291,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ConstantInjectionTest.testConstructorDependencyInjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntroductionTest.introductionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DI.DependencyLoop.*" />
+          <option name="PATTERN" value="AOP.Introduction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DI.Config" />
-      <option name="MAIN_CLASS_NAME" value="DI.Config.ConstantInjectionTest" />
-      <option name="METHOD_NAME" value="testConstructorDependencyInjectTest" />
+      <option name="PACKAGE_NAME" value="AOP.Introduction" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Introduction.IntroductionTest" />
+      <option name="METHOD_NAME" value="introductionTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -384,19 +314,42 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DependsOnTest.dependsOnTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="adviceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DI.DependsOn.*" />
+          <option name="PATTERN" value="AOP.Advice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DI.DependsOnTest" />
-      <option name="MAIN_CLASS_NAME" value="DI.DependsOnTest.DependsOnTest" />
-      <option name="METHOD_NAME" value="dependsOnTest" />
+      <option name="PACKAGE_NAME" value="AOP.Advice" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Advice.adviceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="adviceTest.testSchemaAfterFinallyAdvice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AOP.Advice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="AOP.Advice" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Advice.adviceTest" />
+      <option name="METHOD_NAME" value="testSchemaAfterFinallyAdvice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -407,42 +360,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DependsOnTest.testDependOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="adviceTest.testSchemaAroundAdvice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DI.DependsOn.*" />
+          <option name="PATTERN" value="AOP.Advice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DI.DependsOnTest" />
-      <option name="MAIN_CLASS_NAME" value="DI.DependsOnTest.DependsOnTest" />
-      <option name="METHOD_NAME" value="testDependOn" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LocalAndParentInjectionTest.localAndParentInjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DI.DependencyLoop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DI.Config" />
-      <option name="MAIN_CLASS_NAME" value="DI.Config.LocalAndParentInjectionTest" />
-      <option name="METHOD_NAME" value="localAndParentInjectionTest" />
+      <option name="PACKAGE_NAME" value="AOP.Advice" />
+      <option name="MAIN_CLASS_NAME" value="AOP.Advice.adviceTest" />
+      <option name="METHOD_NAME" value="testSchemaAroundAdvice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -469,19 +399,19 @@
       <method />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LocalAndParentInjectionTest.localAndParentInjectionTest" />
-      <item itemvalue="JUnit.ConstantInjectionTest.testConstructorDependencyInjectTest" />
-      <item itemvalue="JUnit.DependsOnTest.testDependOn" />
-      <item itemvalue="JUnit.DependsOnTest.dependsOnTest" />
-      <item itemvalue="JUnit.AOPTest.helloWorldTest" />
+      <item itemvalue="JUnit.adviceTest.testSchemaAfterFinallyAdvice" />
+      <item itemvalue="JUnit.adviceTest.testSchemaAroundAdvice" />
+      <item itemvalue="JUnit.IntroductionTest.introductionTest" />
+      <item itemvalue="JUnit.adviceTest" />
+      <item itemvalue="JUnit.AspectJTest.aspectJTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DependsOnTest.dependsOnTest" />
-        <item itemvalue="JUnit.AOPTest.helloWorldTest" />
-        <item itemvalue="JUnit.DependsOnTest.testDependOn" />
-        <item itemvalue="JUnit.ConstantInjectionTest.testConstructorDependencyInjectTest" />
-        <item itemvalue="JUnit.LocalAndParentInjectionTest.localAndParentInjectionTest" />
+        <item itemvalue="JUnit.AspectJTest.aspectJTest" />
+        <item itemvalue="JUnit.IntroductionTest.introductionTest" />
+        <item itemvalue="JUnit.adviceTest" />
+        <item itemvalue="JUnit.adviceTest.testSchemaAroundAdvice" />
+        <item itemvalue="JUnit.adviceTest.testSchemaAfterFinallyAdvice" />
       </list>
     </recent_temporary>
   </component>
@@ -497,44 +427,45 @@
       <updated>1527145271351</updated>
       <workItem from="1527145274146" duration="24857000" />
       <workItem from="1527235207796" duration="1364000" />
-      <workItem from="1527498303850" duration="1725000" />
+      <workItem from="1527498303850" duration="3681000" />
+      <workItem from="1527556200509" duration="4103000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DependsOnTest_testDependOn - 2018.05.25 at 15h 32m 07s.xml">
-      <configuration name="DependsOnTest.testDependOn" configurationId="JUnit" />
+    <history-entry file="AOPTest_testSchemaAroundAdvice - 2018.05.28 at 18h 10m 05s.xml">
+      <configuration name="AOPTest.testSchemaAroundAdvice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.25 at 15h 50m 55s.xml">
-      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    <history-entry file="AOPTest_testSchemaAroundAdvice - 2018.05.28 at 18h 10m 21s.xml">
+      <configuration name="AOPTest.testSchemaAroundAdvice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.25 at 15h 52m 36s.xml">
-      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    <history-entry file="IntroductionTest_introductionTest - 2018.05.29 at 11h 16m 38s.xml">
+      <configuration name="IntroductionTest.introductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.28 at 17h 25m 42s.xml">
-      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    <history-entry file="IntroductionTest_introductionTest - 2018.05.29 at 11h 18m 03s.xml">
+      <configuration name="IntroductionTest.introductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 26m 29s.xml">
-      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    <history-entry file="adviceTest - 2018.05.29 at 11h 18m 18s.xml">
+      <configuration name="adviceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 27m 05s.xml">
-      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    <history-entry file="IntroductionTest_introductionTest - 2018.05.29 at 11h 28m 24s.xml">
+      <configuration name="IntroductionTest.introductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 27m 31s.xml">
-      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    <history-entry file="IntroductionTest_introductionTest - 2018.05.29 at 11h 28m 36s.xml">
+      <configuration name="IntroductionTest.introductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPTest_helloWorldTest - 2018.05.28 at 17h 30m 57s.xml">
-      <configuration name="AOPTest.helloWorldTest" configurationId="JUnit" />
+    <history-entry file="IntroductionTest_introductionTest - 2018.05.29 at 11h 28m 53s.xml">
+      <configuration name="IntroductionTest.introductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.28 at 17h 33m 08s.xml">
-      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    <history-entry file="IntroductionTest_introductionTest - 2018.05.29 at 11h 29m 49s.xml">
+      <configuration name="IntroductionTest.introductionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DependsOnTest_dependsOnTest - 2018.05.28 at 17h 34m 05s.xml">
-      <configuration name="DependsOnTest.dependsOnTest" configurationId="JUnit" />
+    <history-entry file="AspectJTest_aspectJTest - 2018.05.29 at 14h 10m 11s.xml">
+      <configuration name="AspectJTest.aspectJTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27946000" />
+    <option name="totallyTimeSpent" value="34005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="127" y="23" width="1302" height="856" extended-state="0" />
@@ -549,57 +480,57 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30156657" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31723237" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16359447" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31984335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31984335" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24961598" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32898173" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="3" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32898173" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.3994778" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Messages" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10052219" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16359447" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31984335" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994778" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.20104438" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,34 +545,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/helloWorld/HelloImpl2.java" />
-    <entry file="file://$PROJECT_DIR$/src/helloWorld/HelloImpl.java" />
-    <entry file="file://$PROJECT_DIR$/recources/helloWorld/helloWorld.xml" />
-    <entry file="file://$PROJECT_DIR$/recources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-874">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/helloWorld/HelloApi.java" />
     <entry file="file://$PROJECT_DIR$/src/helloWorld/HelloTest.java" />
     <entry file="file://$PROJECT_DIR$/recources/chapter2/getBean/getByName" />
@@ -779,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="65" lean-forward="true" selection-start-line="61" selection-start-column="65" selection-end-line="61" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,9 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -799,9 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,30 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recources/AOP/HelloWorld">
+    <entry file="file://$PROJECT_DIR$/recources/AOP/Advice/Advice">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AOP/IHelloWorldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AOP/HelloWorldAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -866,34 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AOP/HelloWorldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <element signature="e#104#105#0" expanded="true" />
-            <element signature="e#166#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/AOP/AOPTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recources/AOP/HelloWorld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DI/DependsOn/DependentBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -903,18 +749,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/DI/DependsOnTest/DependsOnTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="254">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/Advice/HelloWorldAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/Advice/IHelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AOP/Advice/adviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
+    <entry file="file://$PROJECT_DIR$/recources/AOP/Advice/Advice">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+        <state relative-caret-position="53">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/Introduction/IIntroductionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AOP/Introduction/IntroductionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recources/AOP/Introduction/Introduction">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/Introduction/IntroductionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/Advice/HelloWorldService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AOP/AspectJ/AspectJ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recources/AOP/AspectJ/AspectJ">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/AOP/AspectJ/AspectJTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
